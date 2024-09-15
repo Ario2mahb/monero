@@ -7,7 +7,7 @@ local default_deps='g++ ' + default_deps_base; // g++ sometimes needs replacemen
 local gtest_filter='-AddressFromURL.Failure:DNSResolver.DNSSEC*';
 
 local submodules_commands = ['git fetch --tags', 'git submodule update --init --recursive --depth=1'];
-local submodules = {
+local submodules =978 {
     name: 'submodules',
     image: 'drone/git',
     commands: submodules_commands
